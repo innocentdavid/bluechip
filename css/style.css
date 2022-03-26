@@ -1,0 +1,374 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.btn-outline-warning {
+  color: white;
+}
+
+.btn-primary {
+  background: #7600e6;
+  border-color: #7600e6;
+}
+
+.btn-primary:hover {
+  background: #800feb;
+  border-color: #800feb;
+}
+
+.btn-black {
+  color: white;
+  background: #000;
+  border-color: #000;
+}
+
+.btn-black:hover {
+  color: white;
+  background: #0e0e0e;
+  border-color: #0e0e0e;
+}
+
+.bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0600b2;
+  background: linear-gradient(121deg, #0600b2 0%, #6b00cf 82%);
+}
+
+section {
+  margin-bottom: 60px;
+  padding: 0 10px;
+}
+
+.sec-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sec-header h1 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+}
+
+.sec-header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 0 10%;
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  background: black;
+}
+
+.top {
+  color: white;
+  padding: 5px;
+  padding-right: 20px;
+  z-index: 999;
+}
+
+.top a {
+  color: white;
+}
+
+nav {
+  min-height: 85px;
+}
+
+.navbar-brand {
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-dark a.nav-link.active {
+  font-weight: 700;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background: transparent;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bg-overlay img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-overlay:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#002f4b), to(#dc4225));
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: 0.6;
+}
+
+.header-content-parent {
+  height: 100vh;
+  margin-top: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.bar {
+  border: 3px solid #ffc107;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.header-content h1 {
+  font-weight: 800;
+}
+
+.aboutSection_right {
+  padding: 3rem 2rem;
+}
+
+.aboutSection_right .about-text {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffc107;
+}
+
+.aboutSection_right h1 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about_sec_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_sec_img img {
+  width: 100vw;
+  height: 300px;
+}
+
+.about_mv-header span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Our_core_value .sec-title {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #363636;
+  margin-bottom: 30px;
+}
+
+#Our_core_value .card {
+  background: #0600b2;
+  background: linear-gradient(121deg, #0600b2 0%, #6b00cf 82%);
+  padding: 5px;
+  padding-top: 40px;
+  color: white;
+}
+
+#Our_core_value .icon_box {
+  width: 109px;
+  height: 109px;
+  background: #0600b2;
+  background: linear-gradient(150deg, #0600b2 0%, #6b00cf 82%);
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-left: 10px;
+}
+
+#Our_core_value .card-title {
+  margin: 20px auto;
+}
+
+#operation .img_box {
+  width: 77px;
+  height: 77px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#operation .cont {
+  padding: 2.5rem 1.5rem;
+}
+
+#services .img_box {
+  width: 77px;
+  height: 77px;
+  background: #ffc107c1;
+  border-radius: 50%;
+  margin-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#our_customer .sec-header {
+  padding: 1.5rem;
+  background: #0600b2;
+  background: linear-gradient(150deg, #0600b2 0%, #6b00cf 82%);
+}
+
+#our_customer .sec-body .second_sec_header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #707070;
+  margin-left: 5px;
+}
+
+#our_customer .sec-body .cont {
+  --bs-gutter-x: 3rem;
+}
+
+#our_customer .sec-body p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+#accreditation p:first-child {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#accreditation .first-sec-title {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#accreditation .sec_title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#accreditation .sec_desc {
+  color: #bfbfbf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#econ_empowerment .sec-header h1 {
+  font-size: 16px;
+}
+
+#econ_empowerment .img_box {
+  width: 77px;
+  height: 77px;
+  background: #000;
+  border-radius: 50%;
+  margin-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+footer a {
+  color: #6c757d !important;
+}
+
+@media (min-width: 768px) {
+  .about_sec_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_sec_img img {
+    width: initial;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #our_customer .second_sec_header {
+    font-size: 24px;
+  }
+  #our_customer .cont {
+    --bs-gutter-x: 10rem;
+  }
+  #accreditation p:first-child {
+    font-size: 24px;
+  }
+  #accreditation .first-sec-title {
+    font-size: 30px;
+  }
+  #operation .cont {
+    padding: 2.5rem 3.5rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .aboutSection_right {
+    padding: 0 2.5rem;
+    padding-right: 8rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
