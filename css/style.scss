@@ -285,16 +285,15 @@ header {
 }
 
 #accreditation {
-  p:first-child {
-    font-family: Arial, Helvetica, sans-serif;
-    // font-size: 24px;
-    font-size: 14px;
-  }
   .first-sec-title {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+  p:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
   }
   .sec_title {
     font-family: Arial, Helvetica, sans-serif;
@@ -353,6 +352,13 @@ footer {
     }
   }
 
+  #operation {
+    .cont {
+      padding: 2.5rem 3.5rem;
+      padding-left: 4rem;
+    }
+  }
+
   #accreditation {
     p:first-child {
       font-size: 24px;
@@ -360,12 +366,20 @@ footer {
     .first-sec-title {
       font-size: 30px;
     }
+    .sec_title {
+      font-size: 34px;
+    }
+    .sec_desc {
+      font-size: 18px;
+    }
   }
 
-  #operation {
-    .cont {
-      padding: 2.5rem 3.5rem;
-      padding-left: 4rem;
+  #econ_empowerment {
+    .sec-header {
+      h1 {
+        font-size: 20px;
+        font-weight: bold;
+      }
     }
   }
 }
