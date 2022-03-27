@@ -187,7 +187,13 @@ header {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 20px;
+  color: #ffc107;
+}
+
+.aboutSection_right .bar {
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-bottom: 40px;
 }
 
 .about_sec_img {
