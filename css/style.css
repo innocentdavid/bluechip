@@ -315,7 +315,9 @@ header {
 }
 
 #econ_empowerment .sec-header h1 {
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 #econ_empowerment .img_box {
@@ -356,7 +358,6 @@ footer a {
   }
   #operation .cont {
     padding: 2.5rem 3.5rem;
-    padding-left: 4rem;
   }
   #accreditation p:first-child {
     font-size: 24px;
@@ -371,8 +372,12 @@ footer a {
     font-size: 18px;
   }
   #econ_empowerment .sec-header h1 {
-    font-size: 20px;
+    font-size: 3rem;
     font-weight: bold;
+    letter-spacing: 6px;
+  }
+  #econ_empowerment .sec-header p {
+    font-size: 1.3rem;
   }
 }
 
@@ -380,6 +385,12 @@ footer a {
   .aboutSection_right {
     padding: 0 2.5rem;
     padding-right: 8rem;
+  }
+  #operation .sec-header p {
+    font-size: 1.2rem;
+  }
+  #operation .cont {
+    padding-left: 4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
