@@ -7,12 +7,33 @@ body,
           box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 1200px;
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #ffc107 !important;
+}
+
+.active {
+  position: relative;
+}
+
+.active::before {
+  content: "";
+  border: 2px solid #ffc107;
+  position: absolute;
+  bottom: 3px;
+  width: 80%;
 }
 
 .btn {
@@ -351,6 +372,12 @@ footer a {
 }
 
 @media (min-width: 768px) {
+  .header-content {
+    margin-right: 15rem;
+  }
+  .header-content h6 {
+    font-size: 1.3rem;
+  }
   .about_sec_img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -403,6 +430,12 @@ footer a {
 }
 
 @media (min-width: 900px) {
+  .header-content {
+    margin-right: 30rem;
+  }
+  .sec-header p {
+    font-size: 1.2rem;
+  }
   .aboutSection_right {
     padding: 0 2.5rem;
     padding-right: 8rem;
