@@ -224,6 +224,7 @@ header {
   padding: 5px;
   padding-top: 40px;
   color: white;
+  width: 315px;
 }
 
 #Our_core_value .icon_box {
@@ -240,6 +241,10 @@ header {
 
 #Our_core_value .card-title {
   margin: 20px auto;
+}
+
+#operation .img-fluid {
+  width: 100%;
 }
 
 #operation .img_box {
@@ -331,6 +336,10 @@ header {
   place-items: center;
 }
 
+#econ_empowerment .col-cont {
+  padding: 0 !important;
+}
+
 footer a {
   color: #6c757d !important;
 }
@@ -349,6 +358,9 @@ footer a {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  #Our_core_value .card {
+    width: 300px;
   }
   #our_customer .second_sec_header {
     font-size: 24px;
@@ -378,6 +390,9 @@ footer a {
   }
   #econ_empowerment .sec-header p {
     font-size: 1.3rem;
+  }
+  .col-cont {
+    padding-left: 2rem;
   }
 }
 

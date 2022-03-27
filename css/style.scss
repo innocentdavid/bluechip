@@ -209,6 +209,7 @@ header {
     padding: 5px;
     padding-top: 40px;
     color: white;
+    width: 315px;
   }
 
   .icon_box {
@@ -227,6 +228,11 @@ header {
 }
 
 #operation {
+  .img-fluid {
+    width: 100%;
+    // height: 200px;
+  }
+
   .img_box {
     width: 77px;
     height: 77px;
@@ -321,6 +327,9 @@ header {
     display: grid;
     place-items: center;
   }
+  .col-cont {
+    padding: 0 !important;
+  }
 }
 
 footer {
@@ -337,6 +346,12 @@ footer {
     img {
       width: initial;
       height: fit-content;
+    }
+  }
+
+  #Our_core_value {
+    .card {
+      width: 300px;
     }
   }
 
@@ -381,6 +396,9 @@ footer {
         font-size: 1.3rem;
       }
     }
+  }
+  .col-cont {
+    padding-left: 2rem;
   }
 }
 
