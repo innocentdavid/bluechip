@@ -122,6 +122,9 @@ nav {
 .navbar-brand {
   letter-spacing: 5px;
   font-weight: 900;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 3px;
 }
 
 .nav-link {
@@ -209,11 +212,6 @@ header {
 .about_sec_img {
   display: flex;
   justify-content: center;
-
-  img {
-    width: 100vw;
-    height: 300px;
-  }
 }
 .about_mv-header span {
   font-family: Arial, Helvetica, sans-serif;
