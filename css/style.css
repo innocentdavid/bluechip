@@ -285,6 +285,12 @@ header {
   place-items: center;
 }
 
+#operation .sec-body {
+  background-image: url(/images/Toyota-Land-Cruiser-Prado-Kaura-004-1472x920.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
 #operation .cont {
   padding: 2.5rem 1.5rem;
 }
@@ -302,8 +308,10 @@ header {
 
 #our_customer .sec-header {
   padding: 1.5rem;
-  background: #0600b2;
-  background: linear-gradient(150deg, #0600b2 0%, #6b00cf 82%);
+  background-image: url(/images/Sophisticated-space-inside-999x450.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 #our_customer .sec-body .second_sec_header {
