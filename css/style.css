@@ -249,7 +249,6 @@ header {
   padding: 5px;
   padding-top: 40px;
   color: white;
-  width: 315px;
 }
 
 #Our_core_value .icon_box {
@@ -381,6 +380,9 @@ footer a {
   section {
     margin-bottom: 100px;
   }
+  .bg-overlay img {
+    width: 100%;
+  }
   .header-content {
     margin-right: 15rem;
   }
@@ -400,9 +402,6 @@ footer a {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-  }
-  #Our_core_value .card {
-    width: 300px;
   }
   #our_customer .second_sec_header {
     font-size: 24px;
@@ -439,9 +438,6 @@ footer a {
 }
 
 @media (min-width: 900px) {
-  .header-content {
-    margin-right: 30rem;
-  }
   .sec-header p {
     font-size: 1.2rem;
   }
@@ -454,6 +450,12 @@ footer a {
   }
   #operation .cont {
     padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-content {
+    margin-right: 30rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
